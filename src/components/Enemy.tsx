@@ -9,7 +9,7 @@ const Enemy = () => {
       <div className="flex flex-col pl-[8px] mb-[1px] gap-[1px]">
         <div style={{
           backgroundImage: `url(${bgName})`
-        }} className="w-[70px] h-[10px] text-white text-[7px] py-[1px] pl-[3px]">
+        }} className="bg-cover bg-center w-[70px] h-[10px] text-white text-[7px] py-[1px] pl-[3px]">
           { name.slice(0, 9) + '...'}
         </div>
         <div className="border-[1px] border-solid border-black/25 bg-black/25 w-[80px] h-[4px] flex gap-[1px]">

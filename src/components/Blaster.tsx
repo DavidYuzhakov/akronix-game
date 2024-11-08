@@ -13,12 +13,12 @@ const Blaster = ({ img, styles }: BlasterProps) => {
       backgroundImage: `url(${btn})`,
       ...styles
     }}
-    className={`absolute  w-[74px] h-[70px] bg-cover bg-center active:scale-95 duration-200`}
+    className={`absolute w-[74px] h-[70px] bg-cover bg-center active:scale-95 duration-200`}
     >
       <img className={'absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'} src={img} alt="attack" />
       <div style={{
         backgroundImage: `url(${charge})`
-      }} className="w-[21px] h-[51px] relative z-10 overflow-hidden">
+      }} className="bg-cover bg-center w-[21px] h-[51px] relative z-10 overflow-hidden">
       </div>
     </button>
   )

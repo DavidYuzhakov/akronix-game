@@ -13,7 +13,7 @@ const Statistics = () => {
         style={{
           backgroundImage: `url(${form})`
         }} 
-        className="flex justify-center items-center  w-[33px] h-[21px]"
+        className="bg-cover bg-center flex justify-center items-center  w-[33px] h-[21px]"
       >
         <div className="flex gap-[2px]">
           <img src={kill} alt="kills" />
@@ -24,7 +24,7 @@ const Statistics = () => {
         style={{
           backgroundImage: `url(${form})`
         }} 
-        className="flex justify-center items-center  w-[33px] h-[21px]"
+        className="bg-cover bg-center flex justify-center items-center  w-[33px] h-[21px]"
       >
         <div className="flex gap-[2px]">
           <img src={death} alt="death" />
@@ -35,7 +35,7 @@ const Statistics = () => {
         style={{
           backgroundImage: `url(${form})`,
         }}
-        className="flex justify-center items-center  w-[33px] h-[21px]"
+        className="bg-cover bg-center flex justify-center items-center  w-[33px] h-[21px]"
       >
         <div className="flex gap-[2px]">
           <img src={supp} alt="supp" />
