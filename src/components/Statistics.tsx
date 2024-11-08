@@ -11,7 +11,7 @@ const Statistics = () => {
     <div className='absolute flex gap-[3px] ml-[8px] max-w-full'>
       <div 
         style={{
-          background: `url(${form})`
+          backgroundImage: `url(${form})`
         }} 
         className="flex justify-center items-center  w-[33px] h-[21px]"
       >
@@ -22,7 +22,7 @@ const Statistics = () => {
       </div>
       <div 
         style={{
-          background: `url(${form})`
+          backgroundImage: `url(${form})`
         }} 
         className="flex justify-center items-center  w-[33px] h-[21px]"
       >
@@ -33,8 +33,8 @@ const Statistics = () => {
       </div>
       <div 
         style={{
-          background: `url(${form})`
-        }} 
+          backgroundImage: `url(${form})`,
+        }}
         className="flex justify-center items-center  w-[33px] h-[21px]"
       >
         <div className="flex gap-[2px]">

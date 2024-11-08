@@ -8,7 +8,7 @@ const Enemy = () => {
     <div className="absolute top-[60px] left-1/2">
       <div className="flex flex-col pl-[8px] mb-[1px] gap-[1px]">
         <div style={{
-          background: `url(${bgName})`
+          backgroundImage: `url(${bgName})`
         }} className="w-[70px] h-[10px] text-white text-[7px] py-[1px] pl-[3px]">
           { name.slice(0, 9) + '...'}
         </div>
