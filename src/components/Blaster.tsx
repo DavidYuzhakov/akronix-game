@@ -1,5 +1,5 @@
 import btn from "../assets/icons/btn-form.png"
-import charge from "../assets/icons/charge.svg"
+import charge from "../assets/icons/charge.svg?url"
 
 interface BlasterProps {
   img: string

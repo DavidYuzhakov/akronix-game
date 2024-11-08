@@ -1,5 +1,5 @@
 import ship from "../assets/img/ship.png"
-import bgName from "../assets/icons/bg-name.svg"
+import bgName from "../assets/icons/bg-name.svg?url"
 
 const Enemy = () => {
   const name = '@asdfasdfasdfsf'

@@ -1,4 +1,4 @@
-import form from "../assets/icons/stat-el.svg"
+import form from "../assets/icons/stat-el.svg?url"
 import gapEl from "../assets/icons/el-gap.svg"
 import el from "../assets/icons/el.svg"
 
