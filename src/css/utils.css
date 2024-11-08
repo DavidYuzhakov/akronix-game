@@ -1,0 +1,62 @@
+.bg-main {
+  position: relative;
+
+  background: url('/src/assets/img/bg.png') center;
+  background-size: cover;
+
+  width: 100%;
+  height: 100dvh;
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: 60px;
+
+    background: linear-gradient(to bottom, transparent, rgba(18, 14, 39, 0.7));
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    
+    pointer-events: none;
+    background: linear-gradient(to right, rgba(18, 14, 39, 0.25) 0%, transparent 17.5%, transparent 82.5%, rgba(18, 14, 39, 0.25) 100%);
+  }
+}
+
+.stat-el {
+  position: absolute;
+}
+
+.stat-el.el-lt {
+  top: -1px;
+  left: -1px;
+
+  transform: rotateX(180deg)
+}
+
+.stat-el.el-lb {
+  bottom: -1px;
+  left: -1px;
+}
+
+.stat-el.el-rt {
+  top: -1px;
+  right: -1px;
+  transform: rotate(180deg)
+}
+
+.stat-el.el-rb {
+  right: -1px;
+  bottom: -1px;
+  transform: rotateY(180deg)
+}
+
